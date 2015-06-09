@@ -25,7 +25,7 @@
         android:id="@+id/btn_spotify"
         android:layout_below="@+id/mainTitle"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
         android:id="@+id/btn_scores"
         android:layout_below="@+id/btn_spotify"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
         android:id="@+id/btn_library"
         android:layout_below="@+id/btn_scores"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
         android:id="@+id/btn_bigger"
         android:layout_below="@+id/btn_library"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
         android:id="@+id/btn_xyz"
         android:layout_below="@+id/btn_bigger"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -70,7 +70,7 @@
         android:id="@+id/btn_capstone"
         android:layout_below="@+id/btn_xyz"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="24dp" />
 
 
 
