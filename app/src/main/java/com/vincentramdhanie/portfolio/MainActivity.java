@@ -1,9 +1,11 @@
 package com.vincentramdhanie.portfolio;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -12,6 +14,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        //setSupportActionBar(toolbar);
     }
 
     @Override
@@ -34,5 +38,53 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * Executes the Spotify Button Event
+     * @param view
+     */
+    public void runSpotify(View view){
+        Toast.makeText(this, "This button will launch my Spotify App!", Toast.LENGTH_LONG).show();
+    }
+
+    /**
+     * Event handler for the Scores button
+     * @param view
+     */
+    public void runScores(View view){
+        Toast.makeText(this, "This button will launch my Football Scores App!", Toast.LENGTH_LONG).show();
+    }
+
+    /**
+     * Event handler for the Build it Bigger button
+     * @param view
+     */
+    public void runBigger(View view){
+        Toast.makeText(this, "This button will launch my Build It Bigger App!", Toast.LENGTH_LONG).show();
+    }
+
+    /**
+     * Event handler for the XYZ button
+     * @param view
+     */
+    public void runXYZ(View view){
+        Toast.makeText(this, "This button will launch my XYZ App!", Toast.LENGTH_LONG).show();
+    }
+
+    /**
+     * Event handler for the Cpstone button
+     * @param view
+     */
+    public void runCapstone(View view){
+        Toast.makeText(this, "This button will launch my Capstone App!", Toast.LENGTH_LONG).show();
+    }
+
+    /**
+     * Event handler for the Library button
+     * @param view
+     */
+    public void runLibrary(View view){
+        Toast.makeText(this, "This button will launch my Library App!", Toast.LENGTH_LONG).show();
     }
 }
