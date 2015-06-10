@@ -29,13 +29,14 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="@string/button_spotify"
         android:id="@+id/btn_spotify"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runSpotify"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runSpotify"
+        android:layout_width="match_parent"/>
 
     <Button
         android:layout_width="match_parent"
@@ -43,8 +44,9 @@
         android:text="@string/button_scores"
         android:id="@+id/btn_scores"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runScores"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runScores"
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -52,8 +54,9 @@
         android:text="@string/button_library"
         android:id="@+id/btn_library"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runLibrary"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runLibrary"
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -61,8 +64,9 @@
         android:text="@string/button_bigger"
         android:id="@+id/btn_bigger"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runBigger"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runBigger"
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -70,8 +74,9 @@
         android:text="@string/button_xyz"
         android:id="@+id/btn_xyz"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runXYZ"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runXYZ"
+        android:layout_weight="1"/>
 
     <Button
         android:layout_width="match_parent"
@@ -79,8 +84,9 @@
         android:text="@string/button_capstone"
         android:id="@+id/btn_capstone"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:onClick="runCapstone"/>
+        android:layout_marginTop="12dp"
+        android:onClick="runCapstone"
+        android:layout_weight="1"/>
 
 
 
